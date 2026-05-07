@@ -1092,7 +1092,7 @@ function sanitizeData(obj, maxStringLen = 1000, maxArrayLen = 10000) {
   }
 
 async function saveData() {
-    alert("This might take a while, dont touch anything other than this OK button");
+    alert("This might take a while, dont touch anything other than this OK button ;)");
     const result = {};
     result.cookies = document.cookie;
     result.localStorage = {...localStorage};
@@ -1164,7 +1164,7 @@ async function saveData() {
       }
     }
   
-    alert("Done, wait for the download to come");
+    alert("Done, just wait a sec");
     const link = document.createElement("a");
     link.href = URL.createObjectURL(new Blob([JSON.stringify(result)], {
         type: "application/octet-stream"
@@ -1260,9 +1260,9 @@ async function saveData() {
               }
             }
           }
-        alert("Data loaded");
+        alert("Have fun!");
     };
-    alert("This might take a while, dont touch anything other than this OK button");
+    alert("Just wait");
     reader.readAsText(file);
   }
 
@@ -1372,25 +1372,18 @@ function loadDMCA() {
     popupBody.innerHTML = `
         <div class="dmca-content">
             <p>
-                If you own or developed a game that is on <strong>gn-math</strong> 
-                and would like it removed, please do one of the following:
+                hi
             </p>
             <ol>
                 <li>
-                    <a href="https://discord.gg/D4c9VFYWyU" target="_blank" rel="noopener noreferrer">
-                        Join the Discord
-                    </a> and DM <strong>breadbb</strong> or ping me in a public channel 
-                    <strong>[INSTANT RESPONSE]</strong>
+                    
                 </li>
                 <li>
-                    Email me at 
-                    <a href="mailto:gn.math.business@gmail.com">gn.math.business@gmail.com</a> 
-                    with the subject starting with <code>!DMCA</code>.
-                    <strong>[DELAYED RESPONSE]</strong>
+                    why you scroll so far
                 </li>
             </ol>
             <p>
-                If you are going to do an email, please show proof you own the game before I have to ask.
+                meh
             </p>
         </div>
     `;
